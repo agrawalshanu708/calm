@@ -10,7 +10,7 @@ const UserOnBoard = ({userName,setUserName,setRoute}) => {
     }
   return (
     <div className="onboard">
-<form className='UserOnboarding'  onSubmit={(e) => userNameHandler(e)}>
+     <form className='UserOnboarding'  onSubmit={(e) => userNameHandler(e)}>
         <h1 className="onboaring-title">Hello, what's your name?</h1>
         <input defaultValue={userName} type="text" className='onboaring-input' autoFocus/>
     </form>

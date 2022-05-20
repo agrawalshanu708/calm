@@ -2,7 +2,10 @@ import React from 'react'
 import "./Main.css"
 const Main = () => {
   return (
-    <div className="main">Main</div>
+    <div className="main">
+      <Clock/>
+      <Quote/>
+    </div>
   )
 }
 
