@@ -1,0 +1,21 @@
+.onboard{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap: 2rem;
+    border: 1px solid black;
+    height: 100vh;
+    width: 100vw;
+}
+.onboaring-title {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+.onboaring-input {
+    font-size: 2.5rem;
+    cursor: pointer;
+    text-align: center;
+    background: transparent;
+    border:none
+}
