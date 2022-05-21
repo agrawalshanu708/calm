@@ -4,6 +4,6 @@
   "version": "1.0.1",
   "name": "A Focus Dashboard",
   "chrome_url_overrides": {
-    "newtab": "popup.html"
+    "newtab": "index.html"
 }
 }
