@@ -8,7 +8,7 @@ const[userName,setUserName] = useState("")
 const[route,setRoute] = useState("onboard")
   return <div style = {{background: `url(${bg1}) center center/cover no-repeat`}} className="App" >
      { route === "onboard" && <UserOnBoard userName ={userName} setUserName ={setUserName} setRoute={setRoute}/>}
-     { route === "main" && <Main/>}
+     { route === "main" && <Main userName ={userName}/>}
   </div>;
 }
 
