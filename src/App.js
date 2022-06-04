@@ -1,6 +1,5 @@
 import "./App.css";
 import { UserOnBoard,Main } from "./screens/index";
-import {bg1} from "./Assets/index"
 import { useState } from "react";
 import { useBackgroundImage } from './hooks';
 

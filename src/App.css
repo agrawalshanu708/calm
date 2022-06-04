@@ -4,6 +4,11 @@
     align-items: center;
     justify-content: center;
 }
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
 .justify-start {
     justify-content: flex-start;
 }
@@ -37,4 +42,11 @@
     --light-grey: #2c2c2ca4;
     --light-blue: #29b6f6;
     --mild-blue: rgba(41, 182, 246, 0.8);
+
+}
+html{
+    font-family: 'Varela Round', sans-serif;
+}
+.title{
+    font-size:5rem
 }
